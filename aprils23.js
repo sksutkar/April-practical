@@ -25,12 +25,12 @@ console.log("Reversed Number = ", ResNumbar);
 
 //Sum of Digits of a Number
 
-let SumNum = 7128;
-let SumN = 0;
+let Sum_Num = 7128;
+let SN = 0;
 
-while (SumNum > 0) {
-    SumN += SumNum % 10;
-    SumNum = Math.floor(SumNum / 10);
+while (Sum_Num > 0) {
+    SN += Sum_Num % 10;
+    Sum_Num = Math.floor(Sum_Num / 10);
 }
 
-console.log("The Sum of Digits = ", SumN);
+console.log("The Sum of Digits = ", SN);
