@@ -11,6 +11,6 @@ while (num > 0) {
     num = Math.floor(num / 10);
 }
 
-console.log(res);
+console.log("The Reverse Number :",res);
 
 
