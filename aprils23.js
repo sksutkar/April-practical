@@ -1,5 +1,7 @@
 //23/4/26
 
+//Reverse a Number
+
 let num = 145;
 let res = 0;
 
@@ -10,3 +12,5 @@ while (num > 0) {
 }
 
 console.log(res);
+
+
