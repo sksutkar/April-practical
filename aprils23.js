@@ -13,4 +13,8 @@ while (num > 0) {
 
 console.log("The Reverse Number :",res);
 
+//Reverse In String
+
+const  ResStr=StrName=>[...StrName].reverse().join('');
+console.log(ResStr('swapnil'));
 
