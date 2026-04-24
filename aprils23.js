@@ -34,3 +34,7 @@ while (Sum_Num > 0) {
 }
 
 console.log("The Sum of Digits = ", SN);
+
+
+// 24/4/26
+
