@@ -19,6 +19,12 @@ console.log("The Reverse Number :", Rev);
 const RevStrings = StringRes => [...StringRes].reverse().join('');
 console.log(RevStrings("arvind"));
 
+//reverse the conents of the array
+
+let arr7 = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
+arr7.reverse();
+console.log(arr7);//[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
 //Sum of Digits of a Number
 
 let num = 7128;
@@ -30,6 +36,17 @@ while (num > 0) {
 }
 
 console.log("The Sum of Digits", sum);
+
+// Sum of Array Number
+
+let NewArr = [1, 2, 3, 4, 5];
+let Result = 0;
+
+for (let i = 0; i < NewArr.length; i++) {
+    Result += NewArr[i];
+}
+
+console.log("sum of array is", Result);
 
 // Palindrome Number Checking
 
@@ -228,6 +245,11 @@ console.log(duplicateNum);
 let Array = [1, 2, [5, 6], [5, 4, 8, [8, 9]]];
 console.log(Array.flat(2));
 
+var arr8 = [10, 20, 30, 40];
+var newarr = arr8.map((el) => el * 5);
+console.log(newarr);
+//[ 50, 100, 150, 200 ]
+
 
 //Pattern Printing Triangle
 
@@ -337,6 +359,29 @@ let unique = [...new Set(flat)];
 let result = unique.sort((a, b) => a - b);
 
 console.log(result);
+
+//
+
+
+let Savings = 0;
+let traget = 500;
+
+while (Savings < traget) {
+    Savings += 100;
+    console.log("saving money", Savings);
+}
+
+// 
+
+const books = ["Math", "Science", "History", "English"];
+const bookToFind = "Math";
+
+for (let i = 0; i < books.length; i++) {
+    if (books[i] === bookToFind) {
+        console.log("Book found:", books[i]);
+        break; // Exit the loop once the book is found
+    }
+}
 
 
 
